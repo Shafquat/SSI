@@ -62,7 +62,7 @@ python upload_files_to_s3.py
 
 ## Visuals
 ### DAG Structure
-![DAG Visualization](DAGS.png)
+![DAG Visualization](DAGs.png)
 
 ### Redshift Schema
 ![Redshift Schema](Redshift.png)
