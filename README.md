@@ -62,13 +62,13 @@ python upload_files_to_s3.py
 
 ## Visuals
 ### DAG Structure
-![DAG Visualization](DAGs.png)
+![DAG Visualization](images/DAGs.png)
 
 ### Redshift Schema
-![Redshift Schema](Redshift.png)
+![Redshift Schema](images/Redshift.png)
 
 ### S3 Bucket Structure
-![S3 Bucket Structure](S3_bucket_raw_data.png)
+![S3 Bucket Structure](images/S3_bucket_raw_data.png)
 
 ## Future Work
 - Adapt the DAG to handle real-time streaming from APIs.
