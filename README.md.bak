@@ -1,16 +1,3 @@
-# Service Division Dashboard
-![Service Division Dashboard](images/sdd.png)
-
-
-This Tableau dashboard provides insights into the completion of Service Requests (SRs) across divisions.  
-
-## Features:  
-- **Visualize Key Metrics:** Explore data by **Number of Requests**, **Turnaround Time (Business Days to Completion)**, or **Estimated Cost**.  
-- **Standardized KPI:** A custom metric, **Estimated Cost per Business Day**, allows for accurate comparisons across divisions and wards, accounting for project duration.  
-
-Designed to help users track performance and identify areas for improvement, this dashboard delivers actionable insights at a glance.
-
-
 # File Upload and Data Pipeline Automation
 
 ## Overview
@@ -87,17 +74,4 @@ python upload_files_to_s3.py
 - Adapt the DAG to handle real-time streaming from APIs.
 - Implement enhanced logging and monitoring for the pipeline.
 - Optimize S3 storage using lifecycle policies.
-
-### Costs  
-
-Due to the operational costs of running this pipeline, it has been disabled to optimize resource expenditure.  
-
-#### AWS Costs  
-The pipeline incurred the following costs:  
-- **Compute Resources (EC2):** Running and maintaining the EC2 instances used for data processing contributed significantly to the overall expense.  
-- **Storage (S3):** Costs associated with storing input, intermediate, and output data in S3 buckets.  
-- **Managed Services:** Additional costs for using managed services like Glue and Redshift.
-
-These expenses quickly added up for my own personal instance, as shown below:  
-![AWS Costs](images/aws.png)  
 
